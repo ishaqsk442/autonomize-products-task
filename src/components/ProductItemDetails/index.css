@@ -1,0 +1,48 @@
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  height: 100vh;
+  padding: 20px;
+  background-color: #301907;
+  flex-wrap: wrap;
+}
+.card-container {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 70vw;
+  background-color: #a67e21;
+  /* flex-shrink: 1; */
+  /* height: 500px; */
+  overflow: hidden;
+}
+
+.head {
+  font-family: 'Roboto';
+}
+.desc {
+  font-family: 'Roboto';
+  font-style: oblique;
+  font-weight: bold;
+  color: #4a2713;
+}
+.price {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: aliceblue;
+}
+.rating {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: aliceblue;
+}
+.rate-span {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 500;
+}

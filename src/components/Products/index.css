@@ -1,0 +1,19 @@
+.products-container {
+  min-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  background-color: yellowgreen;
+  min-height: 100vh;
+  /* padding: 10px; */
+}
+.products-list-cont {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100vw;
+  margin-left: 0px;
+  margin-right: 10px;
+  justify-content: center;
+}
